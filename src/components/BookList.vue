@@ -7,16 +7,18 @@
 
 <script>
 export default {
-    name: "BookList"
-}
-data: {
-    title:"All Books"
+    name: 'BookList',
+    data () {
+        return {
+            title:'All Books'
+        }
+    }
 }
 </script>
 
 
 <style>
-h1,h2 {
+h1, h2 {
     font-weight: normal
 } 
 </style>
