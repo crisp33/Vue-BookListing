@@ -12,7 +12,7 @@
 
 
 <script>
-import BookItemVue from './BookItem.vue';
+import BookItem from './BookItem';
 
 export default {
     name: 'BookList',
